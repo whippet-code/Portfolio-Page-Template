@@ -1,0 +1,113 @@
+body {
+  font-family: 'Codystar', cursive;
+  background-color:#f4c1bd;
+  color: #a28f89;
+}
+
+h1 {
+  font-size: 60px;
+  
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* change link colors per state */
+
+a:hover {
+  color: #a22a2b;
+}
+a:active {
+  color: whitesmoke;
+}
+
+.gridcontainer {
+  display: grid;
+  width: 90vw;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+.project-tile {
+  
+  background-color: #a22a2b;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+nav {
+  float: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    position: static;
+    text-align: center;
+  }
+}
+
+li {
+  display: inline;
+}
+
+#welcome-section {
+  height: 100vh;
+  text-align: center;
+  padding-top: 45vh;
+  background-color: #a28f89;
+  color: #f4c1bd;
+ 
+}
+
+#projects {
+  text-align: center;
+}
+#profile-link {
+  margin: auto;
+  width: 50px;
+  font-size: 24px;
+  color: #a22a2b
+  text-align: center;
+}
+#social {
+  padding-top: 10vh;
+  text-align: center;
+  height: 30vh;
+  
+  background-color: #a22a2b;
+}
+
+.foot {
+  clear: both;
+  
+  
+}
+
+.f-left {
+  margin-left: 5px;
+  float: left;
+  font-size: 12;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+}
+
+.f-right {
+  margin-right: 5px;
+  float: right;
+  font-size: 12;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+}
